@@ -23,7 +23,7 @@ router.get('/signature', (req, res) => {
     res.json({ timestamp, signature });
 });
 
-// sign up
+// sign up route
 router.post('/signup', async (req, res) => {
     const { username, email, password } = req.body;
 
@@ -43,7 +43,7 @@ router.post('/signup', async (req, res) => {
     }
 });
 
-// sign in
+// sign in route
 router.post('/signin', async (req, res) => {
     const { email, password } = req.body;
 
