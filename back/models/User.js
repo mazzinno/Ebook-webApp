@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-// The users mongo db schema
+//The users mongodb model
 const UserSchema = new mongoose.Schema({
     username: { type: String, required: true },
     phone: { type: String },
