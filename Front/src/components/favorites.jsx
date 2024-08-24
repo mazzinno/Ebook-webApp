@@ -10,6 +10,7 @@ const Favorites = () => {
     setFavorites(storedFavorites);
   }, []);
 
+  // remove favorite only local host used for now
   const removeFavorite = (bookId) => {
     const updatedFavorites = favorites.filter(book => book._id !== bookId);
     console.log('Updated favorites:', updatedFavorites);
