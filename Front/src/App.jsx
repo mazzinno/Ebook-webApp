@@ -20,7 +20,7 @@ const AppContent = () => {
   const { isLoading } = useAuth();
 
   if (isLoading) {
-    return <div>Loading...</div>; // Or any loading indicator
+    return <div>Loading...</div>;
   }
 
   const router = createBrowserRouter(
