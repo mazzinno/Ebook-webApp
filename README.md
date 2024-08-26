@@ -81,4 +81,3 @@ web application for publishing and reading books online and managing user profil
 
 ## 📫 Authors
 - Abdennacer kaddouri
-- Alaeddine Bara
